@@ -1,0 +1,27 @@
+<h1 style="color: #4485b8;">Mad Science Inc.&nbsp; &nbsp;</h1>
+
+<h2 style="color: rgb(68, 133, 184);">Search Reservation&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+
+<p style="color: rgb(68, 133, 184);"><span style="color:#000000;"><strong>User ID: {{username}}&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input name="LogOut" type="button" value="Log Out" />&nbsp; &nbsp;&nbsp;<a href="/home"><input name="Homepage" type="button" value="Homepage" />​</a>​</strong></span></p>
+
+<form action ="" method = "post">
+    <p>
+        {{form.username.label}} <br>
+        {{form.username(size=30)}}
+    </p>
+    <p>
+        {{form.stimekey.label}} <br>
+        {{form.stimekey(size=30)}}
+    </p>
+    <p>
+        {{form.etimekey.label}} <br>
+        {{form.etimekey(size=30)}}
+    </p>
+    <p>
+        {{form.machineid.label}} <br>
+        {{form.machineid(size=30)}}
+    </p>
+    <p>{{form.submit()}}
+    </p>
+
+</form>

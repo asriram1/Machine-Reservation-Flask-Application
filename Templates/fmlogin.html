@@ -1,0 +1,18 @@
+<h1 style="color: #4485b8;">Mad Science Inc.&nbsp; &nbsp;</h1>
+
+<h2 style="color: rgb(68, 133, 184);">Facility Manager Login&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h2>
+<form action ="" method = "post">
+    <p>
+        {{form.username.label}} <br>
+        {{form.username(size=30)}}
+    </p>
+    <p>
+        {{form.password.label}} <br>
+        {{form.password(size=30)}}
+    </p>
+    <p>{{form.submit()}}
+    </p>
+    <p>
+    <a href="/register"><input name="register" type="button" value="New User? Register" />​</a></p>
+    <a href="/login"><input name="login" type="button" value="Client? Login Here" />​</a>
+</form>
